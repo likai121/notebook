@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CustomAppTheme_textinputLayout" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">#48B858</item><!--选中时文字的颜色-->
+        <item name="android:textColorHint">#C2C2C2</item><!--未被选中时文字颜色-->
+        <item name="colorControlNormal">#C2C2C2</item><!--未被选中的颜色-->
+        <item name="colorControlActivated">#48B858</item><!--选中时背景线的颜色-->
+        <item name="colorControlHighlight">#48B858</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="FloatingStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#C2C2C2</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
